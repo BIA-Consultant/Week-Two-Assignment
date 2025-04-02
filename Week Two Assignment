@@ -1,0 +1,20 @@
+my_list = []  # Create an empty list
+# Append elements one by one
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+print(my_list)  # Output: [10, 20, 30, 40]
+my_list = [10, 20, 30, 40]  # Existing list
+my_list.insert(1, 15)  # Insert 15 at index 1
+print(my_list)  # Output: [10, 15, 20, 30, 40]
+my_list = [10, 15, 20, 30, 40]  # Existing list
+my_list.extend([50, 60, 70])  # Extend the list with new elements
+print(my_list)  # Output: [10, 15, 20, 30, 40, 50, 60, 70]
+del my_list[-1]
+my_list = [40, 10, 60, 20, 50, 30, 15]  # Unsorted list
+my_list.sort()  # Sorts the list in ascending order
+print(my_list)  # Output: [10, 15, 20, 30, 40, 50, 60]
+my_list = [10, 15, 20, 30, 40, 50, 60]  # Sorted list
+index_30 = my_list.index(30)  # Find the index of 30
+print(index_30)  # Output: 3
